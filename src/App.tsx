@@ -5,20 +5,29 @@ import Experience from './components/sections/Experience';
 import Skills from './components/sections/Skills';
 import Projects from './components/sections/Projects';
 import Contact from './components/sections/Contact';
+import ThankYou from './components/sections/Thankyou';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import './App.css';
 
 function App() {
   return (
-    <Layout>
-      <div className="space-y-24">
-        <Hero />
-        <About />
-        <Experience />
-        <Skills />
-        <Projects />
-        <Contact />
-      </div>
-    </Layout>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/thank-you" element={<ThankYou />} />
+        <Route path="/" element={
+          <Layout>
+            <div className="space-y-24">
+              <Hero />
+              <About />
+              <Experience />
+              <Skills />
+              <Projects />
+              <Contact />
+            </div>
+          </Layout>
+        } />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
