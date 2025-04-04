@@ -67,7 +67,7 @@ const Projects: React.FC = () => {
                       alt={project.title} 
                       className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
                     />
-                    {project.videoLink && (
+                    {/* {project.videoLink && (
                       <div className="absolute inset-0 bg-black bg-opacity-40 flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                         <Button 
                           variant="outline" 
@@ -78,7 +78,7 @@ const Projects: React.FC = () => {
                           <PlayIcon className="h-8 w-8" />
                         </Button>
                       </div>
-                    )}
+                    )} */}
                   </>
                 ) : (
                   <div className="w-full h-full flex items-center justify-center bg-gradient-to-r from-blue-100 to-indigo-100 dark:from-blue-900 dark:to-indigo-900">
