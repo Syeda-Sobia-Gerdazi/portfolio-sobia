@@ -116,12 +116,12 @@ const Projects: React.FC = () => {
                       </a>
                     </Button>
                   )}
-                  {project.videoLink && (
+                  {/* {project.videoLink && (
                     <Button variant="outline" size="sm" className="flex-1" onClick={() => openVideo(project.videoLink!)}>
                       <PlayIcon className="h-4 w-4 mr-2" />
                       Watch Demo
                     </Button>
-                  )}
+                  )} */}
                 </div>
               </div>
             </div>
