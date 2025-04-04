@@ -175,7 +175,7 @@ const Contact: React.FC = () => {
                 <input
                   type="hidden"
                   name="_next"
-                  value="https://sobia-portfolio.vercel.app/thank-you"
+                  value="/thank-you"
                 />
 
                 <div>
