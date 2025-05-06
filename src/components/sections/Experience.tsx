@@ -22,6 +22,24 @@ const Experience: React.FC = () => {
     {
       company: "DEVTEK",
       location: "Austin, Texas, United States",
+      position: "Front End Developer- React",
+      period: "April 2022 - July 2024",
+      description: [
+        "Developed and maintained scalable web applications using React.js and TypeScript",
+        "Created dynamic, reusable components utilizing React Custom Hooks and Redux",
+        "Collaborated with back-end engineers and UX/UI designers",
+        "Utilized React Hook Form for efficient form handling and validation",
+        "Implemented data visualization features using Recharts",
+        "Enhanced application performance using React Query",
+        "Streamlined deployment processes using GitHub and Jira",
+        "Designed and enhanced UI components using Chakra UI",
+        "Integrated JSPdf for dynamic report generation"
+      ],
+      tools: ["React", "JavaScript", "TypeScript", "VS Code", "Maestro", "Cypress"]
+    },
+    {
+      company: "DEVTEK",
+      location: "Austin, Texas, United States",
       position: "Software Quality Assurance Engineer",
       period: "February 2021 - July 2024",
       description: [
@@ -39,24 +57,7 @@ const Experience: React.FC = () => {
       ],
       tools: ["Cypress (TypeScript)", "Test Rails", "Confluence", "Browser Stack", "Jira", "Postman"]
     },
-    {
-      company: "DEVTEK",
-      location: "Austin, Texas, United States",
-      position: "Software Engineer",
-      period: "April 2022 - July 2024",
-      description: [
-        "Developed and maintained scalable web applications using React.js and TypeScript",
-        "Created dynamic, reusable components utilizing React Custom Hooks and Redux",
-        "Collaborated with back-end engineers and UX/UI designers",
-        "Utilized React Hook Form for efficient form handling and validation",
-        "Implemented data visualization features using Recharts",
-        "Enhanced application performance using React Query",
-        "Streamlined deployment processes using GitHub and Jira",
-        "Designed and enhanced UI components using Chakra UI",
-        "Integrated JSPdf for dynamic report generation"
-      ],
-      tools: ["React", "JavaScript", "TypeScript", "VS Code", "Maestro", "Cypress"]
-    }
+   
   ];
 
   return (
