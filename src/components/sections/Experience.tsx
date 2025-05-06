@@ -7,7 +7,7 @@ const Experience: React.FC = () => {
       company: "WICK",
       location: "USA",
       position: "Software Quality Assurance Engineer",
-      period: "July 2024 - Present",
+      period: "July 2024 - December 2024",
       description: [
         "Led automation efforts for mobile application testing using Maestro",
         "Conducted comprehensive testing of cross-platform mobile applications (iOS and Android)",
